@@ -97,7 +97,7 @@ func main() {
 			Usage: "Log formatter used (json, text, simple)",
 			Value: "simple",
 		},
-		cli.StringSliceFlag{
+		cli.StringSliceFlag{sdf
 			Name:   "acme-domain",
 			EnvVar: "ACME_DOMAIN",
 			Usage:  "Domain to register with LetsEncrypt",
